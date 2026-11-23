@@ -1,0 +1,28 @@
+run_id,ref_id,time_sec,timestamp_iso,location_name,x,y,floor,notes
+R1,Start,0,,ground-floor start near 014,1014,174,0,manual clicked from route PDF; scaled to floor0_map
+R1,S1,13,,stop 1 near 019/020 corridor,752,128,0,manual clicked from route PDF; scaled to floor0_map
+R1,S2,28,,stop 2 near middle kink,517,184,0,manual clicked from route PDF; scaled to floor0_map
+R1,S3,38,,stop 3 near 022/023 corridor,384,127,0,manual clicked from route PDF; scaled to floor0_map
+R1,End,54,,final stop near 008,185,215,0,manual clicked from route PDF; scaled to floor0_map
+R2,Start,0,,ground-floor left-to-right start near 008,115,210,0,corrected route direction
+R2,S1,10,,stop 1 near 022/023 corridor,384,127,0,manual reference matched from R1 reversed route; start unchanged
+R2,S2,20,,stop 2 near middle kink,517,184,0,manual reference matched from R1 reversed route; start unchanged
+R2,S3,35,,stop 3 near 019/020 corridor,752,128,0,manual reference matched from R1 reversed route; start unchanged
+R2,End,50,,final stop near 014,1014,174,0,manual reference matched from R1 reversed route; start unchanged
+R3,Start,0.0,,ground-floor start,1003,170,0,updated manual reference; floor 0 image 1215x490
+R3,S1,13.0,,ground-floor reference 1,752,115,0,updated manual reference; floor 0 image 1215x490
+R3,S2,31.0,,ground-floor reference 2,395,115,0,updated manual reference; floor 0 image 1215x490
+R3,S3,45.0,,ground-floor stair reference,189,210,0,updated manual reference; floor 0 image 1215x490
+R3,S4,68.0,,first-floor stair reference,170,206,1,updated manual reference; floor 1 image 1240x496
+R3,S5,84.0,,first-floor reference 5,414,126,1,updated manual reference; floor 1 image 1240x496
+R3,End,108.0,,first-floor final stop,881,126,1,updated manual reference; floor 1 image 1240x496
+R4,Start,0,,first-floor start,1041,243,1,manual clicked from route PDF; scaled to floor1 map
+R4,S1,19,,first-floor stop 1,754,171,1,manual clicked from route PDF; scaled to floor1 map
+R4,S2,48,,first-floor stop 2,539,127,1,manual clicked from route PDF; scaled to floor1 map
+R4,S3,69,,first-floor stop 3 after return,929,126,1,manual clicked from route PDF; scaled to floor1 map
+R4,End,77,,first-floor final stop,1047,134,1,manual clicked from route PDF; scaled to floor1 map
+S1,Start,0.000,2026-07-14T13:59:30.859+0200,synthetic route start,1603,740,S1,generated ground-truth start position converted using beacon-aligned map bounds
+S1,S1,27.000,2026-07-14T13:59:57.859+0200,first stationary pause,920,246,S1,generated ground-truth pause from 27.0 to 31.0 seconds converted using beacon-aligned map bounds
+S1,S2,58.000,2026-07-14T14:00:28.859+0200,second stationary pause,247,747,S1,generated ground-truth pause from 58.0 to 62.5 seconds converted using beacon-aligned map bounds
+S1,S3,91.000,2026-07-14T14:01:01.859+0200,third stationary pause,999,1231,S1,generated ground-truth pause from 91.0 to 95.0 seconds converted using beacon-aligned map bounds
+S1,End,120.000,2026-07-14T14:01:30.859+0200,synthetic route end,1603,740,S1,generated ground-truth end position converted using beacon-aligned map bounds; returns to start

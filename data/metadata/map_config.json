@@ -1,0 +1,62 @@
+{
+  "coordinate_convention": {
+    "origin": "top-left",
+    "x_axis": "right",
+    "y_axis": "down",
+    "unit": "pixels"
+  },
+  "floor_origins": {
+    "0": [0, 0],
+    "1": [0, 0]
+  },
+  "floors": {
+    "0": {
+      "image": "Floormap_0.png",
+      "image_width_px": 1215,
+      "image_height_px": 490,
+      "meters_per_pixel": 0.0600000000,
+      "physical_width_m": 72.90,
+      "walkable_polygons": [
+        [[24, 152], [166, 152], [166, 220], [24, 220]],
+        [[165, 118], [217, 118], [217, 220], [165, 220]],
+        [[221, 111], [931, 111], [931, 190], [221, 190]],
+        [[934, 43], [1060, 43], [1060, 281], [934, 281]],
+
+        [[71, 141], [167, 141], [167, 161], [71, 161]],
+        [[154, 145], [174, 145], [174, 213], [154, 213]],
+        [[210, 109], [229, 109], [229, 182], [210, 182]],
+        [[923, 105], [944, 105], [944, 180], [923, 180]]
+      ]
+    },
+    "1": {
+      "image": "floormap_1.png",
+      "image_width_px": 1240,
+      "image_height_px": 496,
+      "meters_per_pixel": 0.0600000000,
+      "physical_width_m": 74.40,
+      "walkable_polygons": [
+        [[39, 159], [186, 159], [186, 230], [39, 230]],
+        [[186, 126], [242, 126], [242, 228], [186, 228]],
+        [[243, 120], [950, 120], [950, 196], [243, 196]],
+        [[950, 50], [1078, 50], [1078, 290], [950, 290]],
+
+        [[91, 154], [178, 154], [178, 167], [91, 167]],
+        [[178, 151], [195, 151], [195, 219], [178, 219]],
+        [[233, 118], [251, 118], [251, 188], [233, 188]],
+        [[941, 113], [956, 113], [956, 188], [941, 188]]
+      ]
+    }
+  },
+  "stairs": {
+    "floor0_polygon": [[73, 43], [164, 43], [164, 149], [73, 149]],
+    "floor1_polygon": [[92, 47], [178, 47], [178, 159], [92, 159]]
+  },
+  "notes": [
+    "Metric scale calibrated against the manually clicked run-reference geometry. This is an empirical PF calibration and not an independent surveyed building scale.",
+    "Coordinates are manually estimated starting values and should be visually checked.",
+    "Walkable polygons are simplified corridor/stair regions, not detailed wall geometry.",
+    "2026-07-13: active metric scale set to 0.0600000000 m/px on both floors for the motion-budget calibration.",
+    "2026-07-10: removed inflated lower walkable regions and moved stair polygons to the actual left-side stairwell near rooms 025/125.",
+    "2026-07-10 final correction: corridor polygons inflated by about 10-20 px while staying corridor-like."
+  ]
+}
